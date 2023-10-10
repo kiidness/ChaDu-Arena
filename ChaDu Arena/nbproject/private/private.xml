@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/C:/Users/Eliott/Desktop%203/Projet%20JavaFX/projet-javafx/ChaDu%20Arena/src/Modele/Gestionnaires/GestionTouches.java</file>
+            <file>file:/C:/Users/Eliott/Desktop%203/Projet%20JavaFX/projet-javafx/ChaDu%20Arena/src/vue/Jeu.java</file>
+            <file>file:/C:/Users/Eliott/Desktop%203/Projet%20JavaFX/projet-javafx/ChaDu%20Arena/src/Modele/Gestionnaires/GestionDestruction.java</file>
+            <file>file:/C:/Users/Eliott/Desktop%203/Projet%20JavaFX/projet-javafx/ChaDu%20Arena/src/Persistance/PersistanceScore.java</file>
+            <file>file:/C:/Users/Eliott/Desktop%203/Projet%20JavaFX/projet-javafx/ChaDu%20Arena/src/Modele/Score.java</file>
+            <file>file:/C:/Users/Eliott/Desktop%203/Projet%20JavaFX/projet-javafx/ChaDu%20Arena/src/Modele/Vector2.java</file>
+            <file>file:/C:/Users/Eliott/Desktop%203/Projet%20JavaFX/projet-javafx/ChaDu%20Arena/src/sources/fxml/Menu.fxml</file>
+            <file>file:/C:/Users/Eliott/Desktop%203/Projet%20JavaFX/projet-javafx/ChaDu%20Arena/src/Modele/Fabriques/CreateurConcret.java</file>
+            <file>file:/C:/Users/Eliott/Desktop%203/Projet%20JavaFX/projet-javafx/ChaDu%20Arena/src/launcher/Main.java</file>
+            <file>file:/C:/Users/Eliott/Desktop%203/Projet%20JavaFX/projet-javafx/ChaDu%20Arena/src/sources/img/autres/touches.png</file>
+            <file>file:/C:/Users/Eliott/Desktop%203/Projet%20JavaFX/projet-javafx/ChaDu%20Arena/src/sources/fxml/Jeu.fxml</file>
+            <file>file:/C:/Users/Eliott/Desktop%203/Projet%20JavaFX/projet-javafx/ChaDu%20Arena/src/vue/Classement.java</file>
+            <file>file:/C:/Users/Eliott/Desktop%203/Projet%20JavaFX/projet-javafx/ChaDu%20Arena/src/sources/fxml/Erreur.fxml</file>
+            <file>file:/C:/Users/Eliott/Desktop%203/Projet%20JavaFX/projet-javafx/ChaDu%20Arena/src/Modele/Gestionnaires/GestionMouvement.java</file>
+            <file>file:/C:/Users/Eliott/Desktop%203/Projet%20JavaFX/projet-javafx/ChaDu%20Arena/src/vue/NewScore.java</file>
+            <file>file:/C:/Users/Eliott/Desktop%203/Projet%20JavaFX/projet-javafx/ChaDu%20Arena/src/Modele/Projectiles/Pique.java</file>
+            <file>file:/C:/Users/Eliott/Desktop%203/Projet%20JavaFX/projet-javafx/ChaDu%20Arena/src/sources/fxml/NewScore.fxml</file>
+            <file>file:/C:/Users/Eliott/Desktop%203/Projet%20JavaFX/projet-javafx/ChaDu%20Arena/src/Modele/Sprite.java</file>
+            <file>file:/C:/Users/Eliott/Desktop%203/Projet%20JavaFX/projet-javafx/ChaDu%20Arena/src/Modele/Fabriques/Createur.java</file>
+            <file>file:/C:/Users/Eliott/Desktop%203/Projet%20JavaFX/projet-javafx/ChaDu%20Arena/src/Modele/Entites/Joueur.java</file>
+            <file>file:/C:/Users/Eliott/Desktop%203/Projet%20JavaFX/projet-javafx/ChaDu%20Arena/src/Modele/Entites/Monstre.java</file>
+            <file>file:/C:/Users/Eliott/Desktop%203/Projet%20JavaFX/projet-javafx/ChaDu%20Arena/src/sources/fxml/Aide.fxml</file>
+            <file>file:/C:/Users/Eliott/Desktop%203/Projet%20JavaFX/projet-javafx/ChaDu%20Arena/src/sources/fxml/style.css</file>
+            <file>file:/C:/Users/Eliott/Desktop%203/Projet%20JavaFX/projet-javafx/ChaDu%20Arena/src/Modele/Entites/Chaton.java</file>
+            <file>file:/C:/Users/Eliott/Desktop%203/Projet%20JavaFX/projet-javafx/ChaDu%20Arena/src/Persistance/PersistanceScoreSerialization.java</file>
+            <file>file:/C:/Users/Eliott/Desktop%203/Projet%20JavaFX/projet-javafx/ChaDu%20Arena/src/vue/Erreur.java</file>
+            <file>file:/C:/Users/Eliott/Desktop%203/Projet%20JavaFX/projet-javafx/ChaDu%20Arena/src/Modele/Projectiles/Projectile.java</file>
+            <file>file:/C:/Users/Eliott/Desktop%203/Projet%20JavaFX/projet-javafx/ChaDu%20Arena/src/sources/fxml/Classement.fxml</file>
+            <file>file:/C:/Users/Eliott/Desktop%203/Projet%20JavaFX/projet-javafx/ChaDu%20Arena/src/vue/Menu.java</file>
+            <file>file:/C:/Users/Eliott/Desktop%203/Projet%20JavaFX/projet-javafx/ChaDu%20Arena/src/Modele/Entites/Entite.java</file>
+            <file>file:/C:/Users/Eliott/Desktop%203/Projet%20JavaFX/projet-javafx/ChaDu%20Arena/src/Modele/Gestionnaires/Timer.java</file>
+            <file>file:/C:/Users/Eliott/Desktop%203/Projet%20JavaFX/projet-javafx/ChaDu%20Arena/src/vue/SousMenu.java</file>
+            <file>file:/C:/Users/Eliott/Desktop%203/Projet%20JavaFX/projet-javafx/ChaDu%20Arena/src/Persistance/PersistanceScoreXml.java</file>
+            <file>file:/C:/Users/Eliott/Desktop%203/Projet%20JavaFX/projet-javafx/ChaDu%20Arena/src/Modele/Entites/ChaTank.java</file>
+        </group>
+    </open-files>
+</project-private>

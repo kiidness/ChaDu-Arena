@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TitledPane?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.geometry.Insets?>
+
+<GridPane xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="vue.Menu" stylesheets="/sources/fxml/style.css">
+  <columnConstraints>
+    <ColumnConstraints hgrow="SOMETIMES" percentWidth="50.0"/>
+    <ColumnConstraints hgrow="SOMETIMES" percentWidth="50.0"/>
+  </columnConstraints>
+  <rowConstraints>
+    <RowConstraints percentHeight="25" vgrow="SOMETIMES" />
+    <RowConstraints percentHeight="25" vgrow="SOMETIMES" />
+    <RowConstraints percentHeight="25" vgrow="SOMETIMES" />
+    <RowConstraints percentHeight="25" vgrow="SOMETIMES" />
+  </rowConstraints>
+    
+  
+    <Label id="title" text="Menu" GridPane.rowIndex="0" GridPane.columnIndex="0" GridPane.columnSpan="2" alignment="center" maxWidth="Infinity"/>
+    <Button text="Aide" onAction="#aideBouton" GridPane.rowIndex="1" GridPane.columnIndex="1" maxWidth="Infinity" maxHeight="Infinity">
+        <GridPane.margin>
+          <Insets left="50.0" top="15.0" bottom="15.0"/>
+        </GridPane.margin>
+    </Button>
+    <Button text="Classement" onAction="#classementBouton" GridPane.rowIndex="2" GridPane.columnIndex="1" maxWidth="Infinity" maxHeight="Infinity">
+        <GridPane.margin>
+          <Insets left="50.0" top="15.0" bottom="15.0"/>
+        </GridPane.margin>
+    </Button>
+    <Button text="Jouer" onAction="#jouerBouton" GridPane.rowIndex="3" GridPane.columnIndex="1" maxWidth="Infinity" maxHeight="Infinity">
+        <GridPane.margin>
+          <Insets top="15.0"/>
+        </GridPane.margin>
+    </Button>
+</GridPane>

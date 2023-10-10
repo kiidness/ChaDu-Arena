@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TitledPane?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.image.Image?>
+
+<GridPane xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="vue.SousMenu" stylesheets="/sources/fxml/style.css">
+  <columnConstraints>
+    <ColumnConstraints hgrow="SOMETIMES" percentWidth="100.0"/>
+  </columnConstraints>
+  <rowConstraints>
+    <RowConstraints percentHeight="25" vgrow="SOMETIMES" />
+    <RowConstraints percentHeight="30" vgrow="SOMETIMES" />
+    <RowConstraints percentHeight="20" vgrow="SOMETIMES" />
+    <RowConstraints percentHeight="25" vgrow="SOMETIMES" />
+  </rowConstraints>
+      <Label id="title" text="Aide" GridPane.rowIndex="0" alignment="center" maxWidth="Infinity"/>
+      <Label wrapText="true" text="Le but du jeu est de survivre aux vagues de chatons le plus de temps possible. Pour vous défendre, vous pouvez jeter des piques à l'aide de la touche 0 tout en vous déplaçant à l'aide des flèches de votre clavier.Appuyez sur la touche espace pour mettre le jeu en pause." GridPane.rowIndex="1" maxWidth="Infinity" maxHeight="Infinity">
+          <GridPane.margin>
+            <Insets left="75" right="75"/>
+          </GridPane.margin>
+      </Label>
+      
+      <ImageView fitWidth="${controller.btnRetour.widthProperty}" GridPane.rowIndex="2" preserveRatio="true">
+            <Image url="sources/img/autres/touches.png"/>
+            <GridPane.margin>
+                <Insets left="50.0" right="50.0"/>
+            </GridPane.margin>
+      </ImageView>
+      
+      <Button fx:id="btnRetour" text="Retour" onAction="#retourBouton" GridPane.rowIndex="3" maxWidth="Infinity" maxHeight="Infinity">
+        <GridPane.margin>
+          <Insets left="50.0" right="50.0" top="50.0"/>
+        </GridPane.margin>
+      </Button>
+</GridPane>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TitledPane?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.TextField?>
+
+<GridPane xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" stylesheets="/sources/fxml/style.css">
+  <columnConstraints>
+    <ColumnConstraints hgrow="SOMETIMES" percentWidth="33.3"/>
+    <ColumnConstraints hgrow="SOMETIMES" percentWidth="33.4"/>
+    <ColumnConstraints hgrow="SOMETIMES" percentWidth="33.3"/>
+  </columnConstraints>
+  <rowConstraints>
+    <RowConstraints percentHeight="25" vgrow="SOMETIMES" />
+    <RowConstraints percentHeight="25" vgrow="SOMETIMES" />
+    <RowConstraints percentHeight="25" vgrow="SOMETIMES"/>
+    <RowConstraints percentHeight="25" vgrow="SOMETIMES" />
+  </rowConstraints>
+      <Label id="errorTitle" text="GAME OVER" GridPane.rowIndex="0" GridPane.columnSpan="3" alignment="center" maxWidth="Infinity"/>
+      <Label fx:id="textScore" text="Vous avez survécu jusqu'à la vague n°X" GridPane.rowIndex="1" GridPane.columnSpan="3" maxWidth="Infinity" maxHeight="Infinity" alignment="center"/>
+     
+      <Label text="Enregistrer votre score : " GridPane.rowIndex="2" maxWidth="Infinity" maxHeight="Infinity" alignment="center"/>
+      <TextField fx:id="textField" promptText="Votre pseudo ( > 3 caractères )" GridPane.rowIndex="2" GridPane.columnIndex="1"/>
+      
+      <Button fx:id="scoreBtn" text="Sauvegarder score" onAction="#scoreBouton" GridPane.rowIndex="2" GridPane.columnIndex="2" maxWidth="Infinity" maxHeight="Infinity">
+        <GridPane.margin>
+          <Insets left="50.0" right="50.0" top="25.0" bottom="25.0"/>
+        </GridPane.margin>
+      </Button>
+      
+      <Button text="Retour au menu" onAction="#retourBouton" GridPane.rowIndex="3" GridPane.columnSpan="3" maxWidth="Infinity" maxHeight="Infinity">
+        <GridPane.margin>
+          <Insets left="50.0" right="50.0" top="50.0"/>
+        </GridPane.margin>
+      </Button>
+</GridPane>

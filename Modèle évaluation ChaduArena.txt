@@ -1,0 +1,225 @@
++*Rappel :*+
+* Rendez un document pdf, contenant l’intégralité des schémas, diagrammes, descriptions.
+* Une évaluation blanche n'est qu'indicative : elle ne comptera pas dans la moyenne. Le soin apporté aux corrections n'est pas le même que pour l'évaluation finale et les notes blanches ne sont qu'un aperçu de votre travail à un instant t.
+
+---
+
+h1. DOCUMENTATION : *0/20*
+
+* Je sais concevoir un diagramme UML intégrant des notions de qualité et correspondant exactement à l’application que j’ai à développer. [sur 7 points]
+*+PREUVE :+* Cf. le document pdf. et projet netbeans. L'ensemble du projet a été réalisé dans l'idée de respecter le plus possible les principes S.O.L. de SOLID
+*_Pas encore
+=> 0/7_*
+
+* Je sais décrire un diagramme UML en mettant en valeur et en justifiant les éléments essentiels. [sur 3 points]
+*+PREUVE :+* Cf. le document pdf (5. Diagramme UML)
+*_Pas encore
+=> 0/3_*
+
+* Je sais documenter mon code et en générer la documentation. [sur 2 points]
+*+PREUVE :+* Cf. projet netbeans + fichier javadoc (dans le fichier "javadoc ChaduArena").
+*_Pas encore
+=> 0/2_*
+
+* Je sais justifier pourquoi j’ai utilisé tel ou tel patron de conception dans un projet. [sur 4 points]
+*+PREUVE :+* Cf pdf (3. Les patrons rencontrés)
+*_Pas encore
+=> 0/4_*
+
+* Je sais décrire le contexte de mon application, pour que n’importe qui soit capable de comprendre à quoi elle sert. [sur 2 points]
+*+PREUVE :+* Cf pdf (1. Contexte)
+*_Pas encore
+=> 0/2_*
+
+* Je sais faire un diagramme de cas d’utilisation pour mettre en avant les différentes fonctionnalités de mon application. [sur 2 points]
+*+PREUVE :+* Cf pdf (4. Diagramme de cas d'utilisation)
+*_Pas encore
+=> 0/2_*
+
+h1. Programmation : *0/40*
+
+* Je maîtrise la notion d’immuabilité de la classe String. [sur 0.5 point]
+*+PREUVE :+* Un String ne se modifie pas mais se réassigne. Chaque changement d'une variable String ou StringProperty dans le projet n'a pas sa valeur "modifiée" mais changée.
+*_Pas encore 
+=> 0/0.5_*
+
+* Je maîtrise les règles de nommage Java. [sur 1 point]
+*+PREUVE :+* Dans l'ensemble du projet ces règles ont étés respectées. (camelCase dans la majorité des cas et première lettre majuscule pour les noms des classes)
+*_Pas encore 
+=> 0/1_*
+
+* Je sais binder bidirectionnellement deux propriétés JavaFX. [sur 1 point]
+*+PREUVE :+* Dans vue.NewScore.java ligne 77, la valeur textField contenant le pseudo écrit par l'utilisateur est bindé bidirectionnellement avec une StringProperty.
+*_Pas encore 
+=> 0/1_*
+
+* Je sais binder unidirectionnellement deux propriétés JavaFX. [sur 1 point]
+*+PREUVE :+* Dans vue.NewScore.java ligne 80, la visibleProperty du bouton est bindée unidirectionnellement avec une BooleanProperty.
+*_Pas encore 
+=> 0/1_*
+
+* Je sais coder une classe Java en respectant des contraintes de qualité de lecture de code. [sur 1 point]
+*+PREUVE :+* Toutes les classes Java du projet sont créées avec ses attributs déclarés au débuts puis ses méthodes / Constructeurs et est documentée de manière à comprendre celle-ci en les lisants ou via la Javadoc générée grâce à ceux-ci.
+*_Pas encore 
+=> 0/1_*
+
+* Je sais contraindre les éléments de ma vue, avec du binding FXML. [sur 1 point]
+*+PREUVE :+* dans sources.fxml.Aide.fxml ligne 31 la valeur de fitWidth de l'ImageView est bindée sur la widthProperty du bouton btnRetour.
+*_Pas encore 
+=> 0/1_*
+
+* Je sais définir et utiliser une classe abstraite. [sur 0.5 point]
+*+PREUVE :+* Persistance.PersistanceScore.java est une classe abstraite posant les bases pour la création de classes se chargeant de la persistance du score concrètes interchangeables.
+*_Pas encore 
+=> 0/0.5_*
+
+* Je sais définir et utiliser une interface. [sur 0.5 point]
+*+PREUVE :+* Une interface définit un comportement qui doit être implémenté par une classe, sans implémenter ce comportement.
+Il s'agit d'une classe abstraite sauf quelques différences donc le fait que celle-ci n'oblige pas d'implémenter ses méthodes.
+*_Pas encore 
+=> 0/0.5_*
+
+* Je sais définir un attribut de classe. [sur 0.5 point]
+*+PREUVE :+* Oui, car n'importe ou dans le projet ils suivent tous les règles de nommage, sont en protected / private lorsque nécessaire, et sont documentés pour permettre de générer une javadoc complète du projet. Il s'agit d'un composant d'une classe, d'une donnée / variable.
+*_Pas encore 
+=> 0/0.5_*
+
+* Je sais définir une CellFactory fabriquant des cellules qui se mettent à jour au changement du modèle. [sur 2 points]
+*+PREUVE :+* Dans vue.Classement.java ligne 114 une cellFactory est créée et set à la listView affichant les différents scores.
+*_Pas encore 
+=> 0/2_*
+
+* Je sais définir une méthode de classe. [sur 0.5 point]
+*+PREUVE :+* Oui, car n'importe ou dans le projet elles suivent toutes les règles de nommage, sont en protected/private lorsque nécessaire, et sont documentées pour permettre de générer une javadoc complète du projet. Il s'agit d'un comportement de la classe.
+*_Pas encore 
+=> 0/0.5_*
+
+* Je sais définir une variable ou un attribut constant. [sur 0.5 point]
+*+PREUVE :+* Dans Persistance.PersistanceScoreSerialization.java, le nom du fichier de sauvegarde est initialisé comme étant final.
+*_Pas encore 
+=> 0/0.5_*
+
+* Je sais définir, attraper et laisser passer une exception. [sur 1 point]
+*+PREUVE :+* Dans vue.Classement.java lignes 81-85 prévient si le fichier de sauvegarde n'existe ou n'a pas pu être lu. A plusieurs endroits du projet certaines possibles exceptions sont égalements attrapées afin d'afficher leurs détails dans une fenêtre d'erreur prévue à cet effet.
+*_Pas encore 
+=> 0/1_*
+
+* Je sais développer ma propre interface pour qu’elle soit utilisée en lambda-expression. [sur 0.5 point]
+*+PREUVE :+*
+*_Pas encore 
+=> 0/0.5_*
+
+* Je sais développer une application graphique en JavaFX en utilisant FXML. [sur 1 point]
+*+PREUVE :+* Oui, car plusieurs fichiers FXML sont utilisés dans ce projet en étant liés à leurs controlleurs associés. Ils sont dans le sous-package sources/fxml 
+*_Pas encore 
+=> 0/1_*
+
+* Je sais éviter la duplication de code. [sur 1 point]
+*+PREUVE :+* Oui, par exemple pour les différentes entités concrètes leur partie commune est présente dans leurs mères abstraites (Entite et Monstre)
+*_Pas encore 
+=> 0/1_*
+
+* Je sais hiérarchiser mes classes pour spécialiser leur comportement. [sur 2 points]
+*+PREUVE :+* Oui, cela a été fait dans le sous-package Modele.Entites
+*_Pas encore 
+=> 0/2_*
+
+* Je sais intercepter des évènements en provenance de la fenêtre JavaFX. [sur 2 points]
+*+PREUVE :+* Oui, car cela a été fait dans Modele/Gestionnaires/GestionTouches.java pour récupérer les KeyEvent (touches pressées par l'utilisateur).
+*_Pas encore 
+=> 0/2_*
+
+* Je sais maintenir une encapsulation adéquate dans mes classes. [sur 2 points]
+*+PREUVE :+* Oui, car toutes les variables en private/protected ont des setters/getters uniquement lorsque cela peut être nécessaire.
+*_Pas encore 
+=> 0/2_*
+
+* Je sais maintenir, dans un projet, une responsabilité unique pour chacune de mes classes. [sur 2 points]
+*+PREUVE :+* Oui, car comme la documentation du code (en commentaires ou dans la doc générée à partir de ceux-ci) le montre, le principe S est respecté. On peut également le détecter directement avec leur nom pour certaines d'entre elles (dont les gestionnaires par ex, qui gèrent une seule chose chacun).
+*_Pas encore 
+=> 0/2_*
+
+* Je sais gérer la persistance de mon modèle. [sur 2 points]
+*+PREUVE :+* Oui, car elle marche pour le XML et le binaire (cf. le package Persistance). De plus, le patron stratégie permet de switcher sans difficultée le type de persistance utilisé (binaire ou XML)
+*_Pas encore 
+=> 0/2_*
+
+* Je sais surveiller l’élément sélectionné dans un composant affichant un ensemble de données. [sur 2 points]
+*+PREUVE :+*
+*_Pas encore 
+=> 0/2_*
+
+* Je sais transtyper. [sur 0.5 point]
+*+PREUVE :+* Oui, car la notion d'héritage est utilisé à plusieurs endroits comme par exemple dans le sous package Modele/Entites et les objets sont downcast/upcast lorsque nécessaire.
+*_Pas encore 
+=> 0/0.5_*
+
+* Je sais utiliser à mon avantage le polymorphisme. [sur 2 points]
+*+PREUVE :+* Oui, car cela permet notamment de spécifier le comportement / l'état des entités dans le package Modele/Entites par exemple.
+*_Pas encore 
+=> 0/2_*
+
+* Je sais utiliser certains composants simples que me propose JavaFX. [sur 0.5 point]
+*+PREUVE :+* Oui car plusieurs composants simples sont utilisés dans le projet. (Label, Button..)
+*_Pas encore 
+=> 0/0.5_*
+
+* Je sais utiliser certains layout que me propose JavaFX. [sur 0.5 point]
+*+PREUVE :+* Oui, des GridPane ont étés utilisés pour gérer la disposition de la partie menu/boutons ainsi qu'un StackPane pour l'affichage des entités du jeu.
+*_Pas encore 
+=> 0/0.5_*
+
+* Je sais utiliser GIT pour travailler avec mon binôme sur le projet. [sur 2 points]
+*+PREUVE :+* Oui. (cf. le GIT)
+*_Pas encore 
+=> 0/2_*
+
+* Je sais utiliser le type statique adéquat pour mes attributs ou variables. [sur 0.5 point]
+*+PREUVE :+* Oui, par exemple dans launcher.Main.java cela est utilisé pour pouvoir changer de scène ou ouvrir la fenêtre d'erreur "à distance".
+*_Pas encore 
+=> 0/0.5_*
+
+* Je sais utiliser les collections. [sur 1 point]
+*+PREUVE :+* Oui, exemple avec l'ObservableList utilisée pour l'affichage des scores dans vue/Classement.java
+*_Pas encore 
+=> 0/1_*
+
+* Je sais utiliser les différents composants complexes (listes, combo…) que me propose JavaFX. [sur 1 point]
+*+PREUVE :+* Oui car plusieurs composants complexes sont utilisés dans le projet. (ListView, TextField...)
+*_Pas encore 
+=> 0/1_*
+
+* Je sais utiliser les lambda-expression. [sur 1 point]
+*+PREUVE :+* Dans vue/Classement.java ligne 114 pour set/créer la CellFactory
+*_Pas encore 
+=> 0/1_*
+
+* Je sais utiliser les listes observables de JavaFX. [sur 1 point]
+*+PREUVE :+* L'ObservableList est utilisée pour l'affichage des scores dans vue/Classement.java mais aussi dans vue/Erreur.java
+*_Pas encore 
+=> 0/1_*
+
+* Je sais utiliser les packages à bon escient dans un projet. [sur 1 point]
+*+PREUVE :+* (Cf. UML dans le pdf) Oui, car ils ont étés créés en séparant les grandes parties du projet et des sous packages ont étés également créés pour organiser les classes et protéger de la modification les attributs en protected (ex dans le sous package Modele/Entites)
+*_Pas encore 
+=> 0/1_*
+
+* Je sais utiliser les streams sur les collections Java8. [sur 1 point]
+*+PREUVE :+* Dans le package Persistance, des streams sont créés (ObjectOutputStream/ObjectInputStream..)
+*_Pas encore 
+=> 0/1_*
+
+* Je sais utiliser un convertisseur lors d’un bind entre deux propriétés JavaFX. [sur 1 point]
+*+PREUVE :+* Le toString() convertit l'objet Score en String pour leur affichage dans la ListView.
+*_Pas encore 
+=> 0/1_*
+
+* Je sais utiliser un fichier CSS pour styler mon application JavaFX. [sur 0.5 point]
+*+PREUVE :+* Le fichier sources/fxml/style.css est utilisé.
+*_Pas encore 
+=> 0/0.5_*
+
+* Je sais utiliser un formateur lors d’un bind entre deux propriétés JavaFX. [sur 1 point]
+*+PREUVE :+* Dans vue.Classement.java ligne 122-123 "Bindings.format"
+*_Pas encore 
+=> 0/1_*

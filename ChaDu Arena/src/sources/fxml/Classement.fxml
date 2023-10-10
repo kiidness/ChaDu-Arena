@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TitledPane?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.image.Image?>
+
+<GridPane xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" stylesheets="/sources/fxml/style.css">
+  <columnConstraints>
+    <ColumnConstraints hgrow="SOMETIMES" percentWidth="100.0"/>
+  </columnConstraints>
+  <rowConstraints>
+    <RowConstraints percentHeight="25" vgrow="SOMETIMES" />
+    <RowConstraints percentHeight="50" vgrow="SOMETIMES" />
+    <RowConstraints percentHeight="25" vgrow="SOMETIMES" />
+  </rowConstraints>
+      <Label id="title" text="Classement des scores" GridPane.rowIndex="0" alignment="center" maxWidth="Infinity"/>
+      
+      <ListView fx:id="listView" GridPane.rowIndex="1" maxWidth="Infinity" maxHeight="Infinity">
+          <GridPane.margin>
+          <Insets left="100.0" right="100.0"/>
+        </GridPane.margin>
+      </ListView>
+      
+      
+      <Button text="Retour" onAction="#retourBouton" GridPane.rowIndex="2" maxWidth="Infinity" maxHeight="Infinity">
+        <GridPane.margin>
+          <Insets left="50.0" right="50.0" top="50.0"/>
+        </GridPane.margin>
+      </Button>
+      
+      <ImageView fx:id="ivBO" fitWidth="360" GridPane.rowIndex="0" GridPane.columnIndex="0" preserveRatio="true">
+            <Image url="sources/img/autres/bouhours.png"/>
+      </ImageView>
+</GridPane>
